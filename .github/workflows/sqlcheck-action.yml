@@ -1,4 +1,4 @@
-name: sqlcheck workflow2
+name: SQL Checks
 on: pull_request
 
 jobs:
