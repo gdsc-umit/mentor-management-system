@@ -8,6 +8,8 @@
 
 - **![Snyk-Check-CI](https://github.com/dsc-umit/mentor-management-system/workflows/Snyk-Check-CI/badge.svg?branch=main)**
 
+- **![sqlcheck workflow2](https://github.com/dsc-umit/mentor-management-system/workflows/sqlcheck%20workflow2/badge.svg?branch=main)**
+
 ## Instructions
 
 1. ### Clone this repository
