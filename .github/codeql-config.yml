@@ -12,3 +12,5 @@ paths-ignore:
   - '**/assets/js/chart*.js'
   - '**/*.html'
   - '**/*.css'
+  - '**/sql/**/*.*'
+  - '**/.github/**/*.*'
