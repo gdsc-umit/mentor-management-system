@@ -1,4 +1,4 @@
-﻿# mentor-management-system
+﻿# College Management System
 
 - **![Node.js CI](https://github.com/dsc-umit/mentor-management-system/workflows/Node.js%20CI/badge.svg?branch=main)**
 
