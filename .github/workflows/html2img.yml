@@ -1,14 +1,13 @@
+name: Generate image
 on:
   push
-
-name: Generate image
 
 jobs:
   image:
     name: Cowsays
     runs-on: ubuntu-latest
     steps:
-      name Create image
+    - name Create image
       uses: htmlcsstoimage/action@v1
       id: create_image
       with:
