@@ -1,0 +1,42 @@
+body{
+  background-color: #ffe0d8;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2{
+  margin: 2rem;
+  color: #794c74;
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.nav-item{
+  color: #b80d57;
+  padding:0 18px;
+font-family: "Montserrat-Extra Bold";
+font-weight: 900;
+}
+
+section{
+  margin-bottom: 3rem;
+}
+
+.msg{
+  margin:auto 12rem 2rem;
+}
+.a{
+  background-color: #f1c5c5;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+}
+.tablefont{
+  font-family: "Roboto";
+}
+.brandname{
+  letter-spacing: 5px;
+
+}
