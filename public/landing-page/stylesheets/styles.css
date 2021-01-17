@@ -1,0 +1,169 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'IBM Plex Serif', serif ---;
+font-family: 'Satisfy', cursive;
+font-family: 'Yeseva One', cursive; ----- */
+
+body {
+    font-family: 'Fira Sans';
+}
+
+p {
+    color: #41656e;
+    font-weight: bolder;
+}
+
+/* Sections */
+.sectionone {
+    background-color: #e8e9a1;
+    color: #e6b566;
+}
+
+.sectiontwo {
+    color: #e5707e;
+    background-color: #a3ddcb;
+}
+
+/* Section Headings */
+
+.container-fluid {
+    padding: 5% 10%;
+}
+
+.row {
+    margin: auto 0;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    padding: 0 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy';
+    font-weight: bolder;
+    font-size: 2.5rem; 
+    color: #e6b566;
+}
+
+.nav-link {
+    color: #e6b566;
+}
+
+.navbar-custom a:hover{
+    color: #ca9642;
+    font-weight: 500;
+}
+
+.dropped-menu {
+    background-color: #e6b566;
+}
+
+
+#navigation .container-fluid {
+    padding: 3% 7%;
+}
+
+/* Title section */
+
+.title-img {
+    background-image: url("../images/title-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 29rem; */
+    width: 100%;
+}
+
+.title-heading {
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 900; 
+    text-shadow: 5px;
+    font-size: 3.5rem;
+    padding-bottom: 5%;
+}
+
+.title-bar {
+    margin: 7% 15%;
+    width: 80%;
+    text-shadow: 3px 3px #120b2b;
+    text-align: center;
+    line-height: 2;
+}
+
+/* Features Section */
+
+#features {
+    padding: 5% 3%;
+}
+
+.feature-heading {
+    text-align: center;
+    font-family: 'Yeseva One';
+    font-weight: 900;
+    padding-bottom: 2%;
+}
+
+/* About Section */
+
+
+
+/* Footer Section */
+
+#footer {
+    font-weight: 400;
+}
+
+.footer-icons {
+    margin: 3% 1% 1.5%;
+}
+
+.copyright {
+    text-align: center;
+    margin: auto;
+}
+
+/* Media Queries */
+
+@media (max-width: 690px) {
+    .navbar-brand {
+        font-family: 'Satisfy';
+        font-weight: bolder;
+        font-size: 2.25rem; 
+        color: #e6b566;
+    }
+    .title-heading {
+        color: #fff;
+        font-family: 'Yeseva One', cursive;
+        font-weight: 900; 
+        text-shadow: 5px;
+        font-size: 3.25rem;
+        padding-bottom: 5%;
+    }
+}
+
+@media (max-width: 570px) {
+    .navbar-brand {
+        font-family: 'Satisfy';
+        font-weight: bolder;
+        font-size: 2rem; 
+        color: #e6b566;
+    }
+    .title-heading {
+        color: #fff;
+        font-family: 'Yeseva One', cursive;
+        font-weight: 900; 
+        text-shadow: 5px;
+        font-size: 2.60rem;
+        padding-bottom: 10%;
+    }
+}
