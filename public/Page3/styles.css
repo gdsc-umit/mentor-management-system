@@ -1,0 +1,144 @@
+body {
+    font-family: 'Fira Sans';
+    background-color: skyblue;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#para {
+    color: #41656e;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+}
+
+#Btn {
+    border: 2px solid;
+    box-shadow: 2px black;
+    margin-top: -50px;
+}
+
+#Btn1 {
+    border: 2px solid;
+    box-shadow: 2px black;
+}
+
+/* Sections */
+.sectionone {
+    background-color: #e8e9a1;
+    color: #e6b566;
+}
+
+.sectiontwo {
+    color: black;
+    background-color: skyblue;
+    font-weight: bold;
+}
+
+/* Section Headings */
+
+.container-fluid {
+    padding: 5% 10%;
+}
+
+.row {
+    margin: auto 0;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    padding: 0 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#navbar-brand {
+    font-family: 'Satisfy';
+    font-weight: bolder;
+    font-size: 2.5rem; 
+    color: #e6b566;
+}
+
+.nav-link {
+    color: #e6b566;
+}
+
+.navbar-custom a:hover{
+    color: #ca9642;
+    font-weight: 500;
+}
+
+#dropdown-menu {
+    background-color: #e6b566;
+}
+
+
+#navigation .container-fluid {
+    padding: 3% 7%;
+}
+
+/* Footer Section */
+
+#footer {
+    font-weight: 400;
+}
+
+.footer-icons {
+    margin: 3% 1% 1.5%;
+}
+
+.copyright {
+    text-align: center;
+    margin: auto;
+}
+
+/* Media Queries */
+
+@media (max-width: 690px) {
+    .navbar-brand {
+        font-family: 'Satisfy';
+        font-weight: bolder;
+        font-size: 2.25rem; 
+        color: #e6b566;
+    }
+    .title-heading {
+        color: #fff;
+        font-family: 'Yeseva One', cursive;
+        font-weight: 900; 
+        text-shadow: 5px;
+        font-size: 3.25rem;
+        padding-bottom: 5%;
+    }
+}
+
+@media (max-width: 570px) {
+    .navbar-brand {
+        font-family: 'Satisfy';
+        font-weight: bolder;
+        font-size: 2rem; 
+        color: #e6b566;
+    }
+    .title-heading {
+        color: #fff;
+        font-family: 'Yeseva One', cursive;
+        font-weight: 900; 
+        text-shadow: 5px;
+        font-size: 2.60rem;
+        padding-bottom: 10%;
+    }
+}
