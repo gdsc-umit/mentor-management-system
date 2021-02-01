@@ -19,6 +19,10 @@ p {
     color: #e6b566;
 }
 
+.section-bold {
+    font-weight: bolder;
+}
+
 .sectiontwo {
     color: #e5707e;
     background-color: #a3ddcb;
@@ -27,7 +31,7 @@ p {
 /* Section Headings */
 
 .container-fluid {
-    padding: 5% 10%;
+    padding: 5% 8%;
 }
 
 .row {
@@ -116,20 +120,57 @@ p {
 /* About Section */
 
 
+/* Contacts and Cards Section */
+
+.flip-card {
+    width: 18rem;
+    perspective: 200rem;
+    position: relative;
+    height: 17.5rem;
+}
+
+.flip-card:hover .card-front {
+    transform: rotateY(180deg);
+}
+
+.flip-card:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+.card-back{
+    transform: rotateY(180deg);
+}
+
+.cards-to-flip {
+    transition: all 0.9s;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card-back .card-body{
+    position: relative;
+}
+
+.contacts .row .flip-card{
+    text-align: center;
+}
 
 /* Footer Section */
 
 #footer {
     font-weight: 400;
 }
-
+/* 
 .footer-icons {
     margin: 3% 1% 1.5%;
-}
+} */
 
 .copyright {
     text-align: center;
     margin: auto;
+    line-height: 2.5;
 }
 
 /* Media Queries */
