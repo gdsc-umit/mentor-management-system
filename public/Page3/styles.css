@@ -34,8 +34,8 @@ h1 {
 
 /* Sections */
 .sectionone {
-    background-color: #e8e9a1;
-    color: #e6b566;
+    background-color: #cb9d06;
+    color: black;
 }
 
 .sectiontwo {
@@ -71,11 +71,11 @@ h1 {
     font-family: 'Satisfy';
     font-weight: bolder;
     font-size: 2.5rem; 
-    color: #e6b566;
+    color: black;
 }
 
 .nav-link {
-    color: #e6b566;
+    color:black;
 }
 
 .navbar-custom a:hover{
