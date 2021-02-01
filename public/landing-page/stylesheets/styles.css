@@ -126,7 +126,7 @@ p {
     width: 18rem;
     perspective: 200rem;
     position: relative;
-    height: 17.5rem;
+    height: 18rem;
 }
 
 .flip-card:hover .card-front {
