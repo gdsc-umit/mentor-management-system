@@ -3,29 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+<title>Bulletin Board</title>
   </head>
   <body>
 
-    <section id=#pgheader>
+    <section class="sectionone">
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ff9b93"><span class="brandname" >
-
-    <a class="navbar-brand mb-0 h1"  href="#">LOGO_NAME</a></span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-     <ul class="navbar-nav nav-tabs ml-auto" >
-    <li class="nav-item active"><a class="nav-link active" href="#"> Bulletin Board</a>  </li>
-    <li class="nav-item "><a class="nav-link" href="#"> Resources</a>  </li>
-    <li class="nav-item "><a class="nav-link" href="#"> Projects</a>  </li>
-    </ul></div></nav></section>
+      <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-custom">
+              <a class="navbar-brand" href="landing-page.html">College Made Easy</a>
+              <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="landing-page.html">Home</a>
+                      </li>
+                      <li class="nav-item active">
+                          <a class="nav-link" href="#">Bulletin Board</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Resources</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Logout</a>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
+      </div></section>
 
 <!---Flashcard like strcture--->
 <section >
 
-      <h1>New Messages</h1>
+      <p class="section-heading">New Messages</p>
         <div class="msg">
       <div class="alert alert-primary"  role="alert">
   alert 1—check it out!
@@ -49,16 +64,14 @@
 <div class="a">
 
 
-<section  >
-    <div>
+<section class="sectiontwo" >
 
-      <button type="button" class="btn btn-outline-dark btn-sm download-button"><h3>Bulletin Board of UMIT</h3><i class="fas fa-external-link-square-alt"></i></button>
-    </div>
-</section>
+    <p class="section-heading">Bulletin Board</p>
+
 <!---History Table--->
-<section class="a">
 
-      <h1>Records</h1>
+
+
     <div class="msg">
       <div class="table-responsive-lg">
 <div class="tablefont">
@@ -79,12 +92,13 @@
           <th scope="col">
             Links
           </th><th scope="col">
-            More Info
+            Additional Information
           </th>
           <th scope="col">
             Updated by
           </th>
         </tr>
+        </div>
         <tbody>
           <tr>
           <th scope="row">1</th>
@@ -115,18 +129,26 @@
     </table>
   </div></div>
 </div>
-    <button type="button" class="btn btn-info btn-lg">  Add  </button>
-<button type="button" class="btn btn-secondary btn-lg">Delete</button>
+    <button type="button" class="btn btn-danger btn-lg">  Add  <i class="fas fa-plus-circle"></i>  </button>
+<button type="button" class="btn btn-danger btn-lg">Delete  <i class="fas fa-minus-circle"></i>  </button>
 </div>
 </section>
+<!-- Footer -->
+
+<footer class="copyright container-fluid" id="footer">
+
+    <p>© Copyright 2021 CollegeMadeEasy</p>
+
+</footer>
+
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"  >
-<link rel="stylesheet" href="staticpg.css" > </head><title>Bulletin Board</title>
+<link rel="stylesheet" href="staticpg.css" >
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Roboto:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,700;1,900&family=Fira+Sans:ital,wght@1,300&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Satisfy&family=Yeseva+One&family=Montserrat:ital,wght@0,300;0,400;0,900;1,300;1,800;1,900&family=Ubuntu&display=swap" rel="stylesheet">
 <!--fontawesome-->
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 

@@ -1,42 +1,127 @@
 body{
-  background-color: #ffe0d8;
+
   text-align: center;
-  margin-bottom: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
+    background-color: #f5feff;
+  font-family: 'Fira Sans';
 }
 h1,h2{
   margin: 2rem;
-  color: #794c74;
-  font-family: "Montserrat-Black";
+
+
   font-size: 2rem;
   line-height: 1.5;
   font-weight: 900;
 }
-.nav-item{
-  color: #b80d57;
-  padding:0 18px;
-font-family: "Montserrat-Extra Bold";
-font-weight: 900;
+
+.sectionone {
+    background-color: #e6b566;
+    color: #ff7b54;
+}
+
+.sectiontwo {
+    color: #e5707e;
+    background-color: #a3ddcb;
+    padding: 5rem;
+
+}
+
+.container-fluid {
+    padding: 2% 5%;
+
+}
+.navbar {
+    padding: 0;
+
+}
+
+.nav-item {
+    padding: 0 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+.navbar-brand {
+    font-family: 'Satisfy';
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-custom a:hover{
+    color: #af0069;
+    font-weight: 500;
+}
+#navigation .container-fluid {
+    padding: 3% 7%;
+}
+
+.section-heading {
+  color: #e5707e;
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 2rem;
+    padding-bottom: 2%;
 }
 
 section{
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .msg{
   margin:auto 12rem 2rem;
 }
 .a{
-  background-color: #f1c5c5;
+
   margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
+
+
   padding-top: 4rem;
 }
 .tablefont{
   font-family: "Roboto";
+  color: #4A6B62;
 }
-.brandname{
-  letter-spacing: 5px;
 
+.btnsize{
+  width: 100%;
+}
+
+#footer {
+    font-weight: 400;
+}
+
+.footer-icons {
+    margin: 3% 1% 1.5%;
+}
+
+.copyright {
+    text-align: center;
+    margin: auto;
+}
+
+/* Media Queries */
+
+@media (max-width: 690px) {
+    .navbar-brand {
+        font-family: 'Satisfy';
+        font-weight: bolder;
+        font-size: 2.25rem;
+        color: #ff577f;
+    }
+    .title-heading {
+        color: #fff;
+        font-family: 'Yeseva One', cursive;
+        font-weight: 900;
+        text-shadow: 5px;
+        font-size: 3.25rem;
+        padding-bottom: 5%;
+    }
 }
