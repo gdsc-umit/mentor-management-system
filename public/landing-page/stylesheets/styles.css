@@ -73,7 +73,7 @@ p {
 
 
 #navigation .container-fluid {
-    padding: 3% 7%;
+    padding: 3% 7% 2%;
 }
 
 /* Title section */
@@ -117,8 +117,11 @@ p {
     padding-bottom: 2%;
 }
 
-/* About Section */
+/* Login Section */
 
+.login-form{
+    margin: 5% 10%;
+}
 
 /* Contacts and Cards Section */
 
@@ -139,6 +142,12 @@ p {
 
 .card-back{
     transform: rotateY(180deg);
+    /* border-radius: 25rem; */
+}
+
+.card-front{
+    /* border-radius: 25rem; */
+    line-height: 0;
 }
 
 .cards-to-flip {
@@ -147,6 +156,7 @@ p {
     height: 100%;
     width: 100%;
     backface-visibility: hidden;
+    border: 3px solid;
 }
 
 .card-back .card-body{
