@@ -1,9 +1,10 @@
-body {
+body{
+    margin-bottom: 1rem;
+    background-color: #f5feff;
     font-family: 'Fira Sans';
-    background-color: skyblue;
 }
 
-form {
+#Forms {
     border: 2px solid black;
     border-radius: 6px;
 }
@@ -34,20 +35,21 @@ h1 {
 
 /* Sections */
 .sectionone {
-    background-color: #cb9d06;
-    color: black;
+    background-color: #e6b566;
+    color: #ff7b54;
 }
 
 .sectiontwo {
     color: black;
-    background-color: skyblue;
+    background-color: #f5feff;
     font-weight: bold;
 }
 
 /* Section Headings */
 
 .container-fluid {
-    padding: 5% 10%;
+    padding: 2% 5%;
+
 }
 
 .row {
@@ -67,10 +69,10 @@ h1 {
     font-size: 1rem;
 }
 
-#navbar-brand {
+.navbar-brand {
     font-family: 'Satisfy';
     font-weight: bolder;
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     color: black;
 }
 
@@ -79,7 +81,7 @@ h1 {
 }
 
 .navbar-custom a:hover{
-    color: #ca9642;
+    color: #af0069;
     font-weight: 500;
 }
 
