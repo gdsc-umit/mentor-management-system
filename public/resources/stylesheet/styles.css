@@ -14,11 +14,11 @@ p {
 }
 
 /* Sections */
-.sectionone {
-    background-color: #F5C52C;
-    color: black;
-}
 
+.sectionone {
+    background-color: #e6b566;
+    color: #ff7b54;
+}
 .sectiontwo {
     color: #e5707e;
     background-color: rgb(228, 228, 228);
@@ -59,17 +59,15 @@ p {
 }
 
 .navbar-custom a:hover{
-    color: black;
+    color: #af0069;
     font-weight: 500;
+}
+#navigation .container-fluid {
+    padding: 3% 7%;
 }
 
 .dropped-menu {
     background-color:black;
-}
-
-
-#navigation .container-fluid {
-    padding: 3% 7%;
 }
 
 /* Title section */
