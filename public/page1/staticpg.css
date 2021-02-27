@@ -26,6 +26,9 @@ h1,h2{
 
 }
 
+table{
+  width: 1000px;
+}
 .container-fluid {
     padding: 2% 5%;
 
@@ -76,7 +79,7 @@ section{
 }
 
 .msg{
-  margin:auto 12rem 2rem;
+  margin:auto 2rem 2rem;
 }
 .a{
 
@@ -88,8 +91,14 @@ section{
 .tablefont{
   font-family: "Roboto";
   color: #4A6B62;
+
 }
 
+.table-size{
+  width: 50%;
+  margin-left: auto;
+ margin-right: auto;
+}
 .btnsize{
   width: 100%;
 }
@@ -109,7 +118,7 @@ section{
 
 /* Media Queries */
 
-@media (max-width: 690px) {
+@media (max-width: 190px) {
     .navbar-brand {
         font-family: 'Satisfy';
         font-weight: bolder;

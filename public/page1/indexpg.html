@@ -11,7 +11,7 @@
 
       <div class="container-fluid">
           <nav class="navbar navbar-expand-lg navbar-custom">
-              <a class="navbar-brand" href="landing-page.html">College Made Easy</a>
+              <a class="navbar-brand" href="https://dsc-umit.github.io/mentor-management-system/public/landing-page/index.html">College Made Easy</a>
               <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
@@ -76,60 +76,40 @@
 <div class="tablefont">
 
 
-    <table class="table table-striped" >
-      <thead>
-        <tr>
-          <th scope="col">
-            #
-          </th>
-          <th scope="col">
-            Date
-          </th>
-          <th scope="col">
-            Message
-          </th>
-          <th scope="col">
-            Links
-          </th><th scope="col">
-            Additional Information
-          </th>
-          <th scope="col">
-            Updated by
-          </th>
-        </tr>
-        </div>
-        <tbody>
-          <tr>
-          <th scope="row">1</th>
-          <td>--</td>
-          <td>--</td>
-          <td>--</td>
-          <td>--</td>
-          <td>--</td>
-          </tr>
-          <tr>
-          <th scope="row">2</th>
-          <td>--</td>
-          <td>--</td>
-          <td>--</td>
-          <td>--</td>
-          <td>--</td>
-          </tr>
-          <tr>
-          <th scope="row">3</th>
-          <td>--</td>
-          <td>--</td>
-          <td>--</td>
-          <td>--</td>
-          <td>--</td>
-          </tr>
-        </tbody>
-      </thead>
-    </table>
+  <table class="table table-striped" class="table-size" id="dataTable" width="30px" >
+  <thead>
+    <tr>
+      <th scope="col">
+        #
+      </th>
+      <th scope="col">
+        Sr.No
+      </th>
+      <th scope="col">
+        Date
+      </th>
+      <th scope="col">
+        Message
+      </th>
+    <th scope="col">
+        Additional Information
+      </th>
+      <th scope="col">
+        Updated by
+      </th>
+    </tr>
+    </div>
+    <tbody>
+      <tr>
+
+      </tr>
+    </tbody>
+  </thead>
+</table>
   </div></div>
 </div>
-    <button type="button" class="btn btn-danger btn-lg">  Add  <i class="fas fa-plus-circle"></i>  </button>
-<button type="button" class="btn btn-danger btn-lg">Delete  <i class="fas fa-minus-circle"></i>  </button>
+<INPUT type="button" value="Add Row" onclick="addRow('dataTable')" />
+<INPUT type="button" value="Delete Row" onclick="deleteRow('dataTable')" />
 </div>
 </section>
 <!-- Footer -->
@@ -140,7 +120,7 @@
 
 </footer>
 
-
+<script src="test.js" > </script>
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"  >
 <link rel="stylesheet" href="staticpg.css" >
@@ -151,7 +131,7 @@
 <!--fontawesome-->
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-<script src="test.js" > </script>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" > </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
